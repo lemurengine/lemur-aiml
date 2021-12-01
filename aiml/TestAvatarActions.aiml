@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<aiml>
+<!-- TestAvatarAiml.aiml -->
+<!-- Compatible with AIML 2.0 Tag Set Specification -->
+<!-- This is a propreity tag used in the Lemur Engine AIML bot. -->
+<!-- Adds Lemurtar avatar actions to Lemur Engine Bots -->
+	<category>
+		<pattern>TEST HAPPY</pattern>
+		<template>
+			I am happy<avatar action="happy"/>
+		</template>
+	</category>
+	<category>
+		<pattern>TEST SAD</pattern>
+		<template>
+			I am sad<avatar action="sad"/>
+		</template>
+	</category>
+	<category>
+	<pattern>TEST ANGRY</pattern>
+		<template>
+			I am angry<avatar action="angry"/>
+		</template>
+	</category>
+	<category>
+		<pattern>TEST WORRIED</pattern>
+		<template>
+			I am worried<avatar action="worried"/>
+		</template>
+	</category>
+	<category>
+		<pattern>TEST LOVE</pattern>
+		<template>
+			I am feel love<avatar action="love"/>
+		</template>
+	</category>
+</aiml>
